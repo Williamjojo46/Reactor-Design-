@@ -1,13 +1,13 @@
 %reactor 1 design code at 225 atm
 %constant values?
-F=145.759; %total feed molar flowrate (Kmol/hr)
+F=; %total feed molar flowrate (Kmol/hr) 
 Fn2=44.0673;%total feed flowrate for nitrogen (Kmol/hr)
 alpha=0.5; %Temkin parameter
 E=1.7056E5; %activation energy
 R=8.314; %ideal gas contant
 ko=8.85E14; %Arrhenius constant
 P=225; %operating pressure atm 
-A=0.3; % cross-sectional area of packed bed m^2
+A=0.4; % cross-sectional area of packed bed m^2
 b0=-8.2125534; %coefficients for effectiveness factor 
 b1=0.03774149;%coefficients for effectiveness factor
 b2=6.190112;%coefficients for effectiveness factor
