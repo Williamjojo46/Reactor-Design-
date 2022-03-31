@@ -1,7 +1,7 @@
 %reactor 1 design code at 225 atm
 %constant values?
-F=; %total feed molar flowrate (Kmol/hr) 
-Fn2=44.0673;%total feed flowrate for nitrogen (Kmol/hr)
+F=150.759; %total feed molar flowrate (Kmol/hr)
+Fn2=42.0673;%total feed flowrate for nitrogen (Kmol/hr)
 alpha=0.5; %Temkin parameter
 E=1.7056E5; %activation energy
 R=8.314; %ideal gas contant
@@ -16,10 +16,10 @@ b4=-20.86963;%coefficients for effectiveness factor
 b5=2.379142E-8;%coefficients for effectiveness factor
 b6=27.88403;%coefficients for effectiveness factor
 T0=523.15;%initial temperatures
-YH2=0.691159;%initial mole fraction of hydrogen
+YH2=0.68159;%initial mole fraction of hydrogen
 YN2=0.30233;%initial mole fraction of nitrogen
 YNH3=0.00674571;%initial mole fraction of ammonia
-dL=0.01;
+dL=0.05;
 L=0:dL:5;%setting range for integration
 %setting all variables to be same matrix length as length
 RNH3=zeros(size(L));%rate of ammonia formation
